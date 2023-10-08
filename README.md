@@ -2,8 +2,6 @@
 
 [![Welcome](https://cnd-prod-1.s3.us-west-004.backblazeb2.com/new-banner2-scaled-for-github.jpg)](https://youtu.be/xxx)
 
-**(00)**
-
 **My tech content for IT and Homelab.**
 
 This Repository **Cheat-Sheets** is my personal knowledge-base. Keeping code-snippets, technical documentation, and command reference for various tools, and technologies.
