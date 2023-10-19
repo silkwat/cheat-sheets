@@ -34,7 +34,7 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
 ### On mac OS
 
-Install Kubectl with [homebrew](tools/homebrew.md):
+Install Kubectl with [homebrew](../tools/homebrew.md):
 
 ```zsh
 brew install kubernetes-cli
