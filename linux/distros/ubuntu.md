@@ -4,11 +4,10 @@ Ubuntu is a Linux distribution based on Debian and composed mostly of free and o
 
 ## How to enable sudo without a password for a user
 
-Open a Terminal window and type: 2 methods
+Open a Terminal window and type:
 
 ```
-(1) [~] echo -e "USER\tALL=(ALL)\tNOPASSWD: ALL" > /etc/sudoers.d/08OCT23_sudo_for_USER
-(2) sudo visudo
+sudo visudo
 ```
 
 In the bottom of the file, add the following line:
