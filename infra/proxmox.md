@@ -1,1 +1,395 @@
-{"payload":{"allShortcutsEnabled":true,"fileTree":{"infra":{"items":[{"name":"proxmox-api.md","path":"infra/proxmox-api.md","contentType":"file"},{"name":"proxmox-certificate-management.md","path":"infra/proxmox-certificate-management.md","contentType":"file"},{"name":"proxmox-terraform.md","path":"infra/proxmox-terraform.md","contentType":"file"},{"name":"proxmox.md","path":"infra/proxmox.md","contentType":"file"},{"name":"sophos-xg.md","path":"infra/sophos-xg.md","contentType":"file"},{"name":"truenas-scale.md","path":"infra/truenas-scale.md","contentType":"file"},{"name":"zfs.md","path":"infra/zfs.md","contentType":"file"}],"totalCount":7},"":{"items":[{"name":".github","path":".github","contentType":"directory"},{"name":"apps","path":"apps","contentType":"directory"},{"name":"cloud","path":"cloud","contentType":"directory"},{"name":"databases","path":"databases","contentType":"directory"},{"name":"docker","path":"docker","contentType":"directory"},{"name":"hardware","path":"hardware","contentType":"directory"},{"name":"infra","path":"infra","contentType":"directory"},{"name":"kubernetes","path":"kubernetes","contentType":"directory"},{"name":"linux","path":"linux","contentType":"directory"},{"name":"macos","path":"macos","contentType":"directory"},{"name":"misc","path":"misc","contentType":"directory"},{"name":"networking","path":"networking","contentType":"directory"},{"name":"tools","path":"tools","contentType":"directory"},{"name":"windows","path":"windows","contentType":"directory"},{"name":".gitignore","path":".gitignore","contentType":"file"},{"name":"LICENSE","path":"LICENSE","contentType":"file"},{"name":"README.md","path":"README.md","contentType":"file"},{"name":"SECURITY.md","path":"SECURITY.md","contentType":"file"}],"totalCount":18}},"fileTreeProcessingTime":5.6293180000000005,"foldersToFetch":[],"reducedMotionEnabled":"system","repo":{"id":402450742,"defaultBranch":"main","name":"cheat-sheets","ownerLogin":"ChristianLempa","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2021-09-02T07:27:23.000-07:00","ownerAvatar":"https://avatars.githubusercontent.com/u/28359525?v=4","public":true,"private":false,"isOrgOwned":false},"symbolsExpanded":false,"treeExpanded":true,"refInfo":{"name":"main","listCacheKey":"v0:1695825574.0","canEdit":true,"refType":"branch","currentOid":"6c259e5e1ec2880a1197a2ce8f91fce3b2ac78d1"},"path":"infra/proxmox.md","currentUser":{"id":140017013,"login":"silkwat","userEmail":"silkwat@firemail.de"},"blob":{"rawLines":null,"stylingDirectives":null,"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":false,"configFilePath":null,"networkDependabotPath":"/ChristianLempa/cheat-sheets/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":false,"repoAlertsPath":"/ChristianLempa/cheat-sheets/security/dependabot","repoSecurityAndAnalysisPath":"/ChristianLempa/cheat-sheets/settings/security_analysis","repoOwnerIsOrg":false,"currentUserCanAdminRepo":false},"displayName":"proxmox.md","displayUrl":"https://github.com/ChristianLempa/cheat-sheets/blob/main/infra/proxmox.md?raw=true","headerInfo":{"blobSize":"9.2 KB","deleteInfo":{"deleteTooltip":"Fork this repository and delete the file"},"editInfo":{"editTooltip":"Fork this repository and edit the file"},"ghDesktopPath":"https://desktop.github.com","gitLfsPath":null,"onBranch":true,"shortPath":"15e431a","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2FChristianLempa%2Fcheat-sheets%2Fblob%2Fmain%2Finfra%2Fproxmox.md","isCSV":false,"isRichtext":true,"toc":[{"level":1,"text":"Proxmox Cheat-Sheet","anchor":"proxmox-cheat-sheet","htmlText":"Proxmox Cheat-Sheet"},{"level":2,"text":"VM Management","anchor":"vm-management","htmlText":"VM Management"},{"level":3,"text":"Cloudinit","anchor":"cloudinit","htmlText":"Cloudinit"},{"level":3,"text":"Disk","anchor":"disk","htmlText":"Disk"},{"level":3,"text":"Snapshot","anchor":"snapshot","htmlText":"Snapshot"},{"level":3,"text":"Misc","anchor":"misc","htmlText":"Misc"},{"level":3,"text":"PV, VG, LV Management","anchor":"pv-vg-lv-management","htmlText":"PV, VG, LV Management"},{"level":3,"text":"Storage Management","anchor":"storage-management","htmlText":"Storage Management"},{"level":3,"text":"Template Management","anchor":"template-management","htmlText":"Template Management"},{"level":2,"text":"Certificate Management","anchor":"certificate-management","htmlText":"Certificate Management"},{"level":2,"text":"Container Management","anchor":"container-management","htmlText":"Container Management"},{"level":3,"text":"Container Disks","anchor":"container-disks","htmlText":"Container Disks"},{"level":3,"text":"Container Snapshot","anchor":"container-snapshot","htmlText":"Container Snapshot"},{"level":2,"text":"Web GUI","anchor":"web-gui","htmlText":"Web GUI"},{"level":2,"text":"Resize Disk","anchor":"resize-disk","htmlText":"Resize Disk"},{"level":3,"text":"Increase disk size","anchor":"increase-disk-size","htmlText":"Increase disk size"},{"level":3,"text":"Decrease disk size","anchor":"decrease-disk-size","htmlText":"Decrease disk size"},{"level":2,"text":"Further information","anchor":"further-information","htmlText":"Further information"}],"lineInfo":{"truncatedLoc":"395","truncatedSloc":"267"},"mode":"file"},"image":false,"isCodeownersFile":null,"isPlain":false,"isValidLegacyIssueTemplate":false,"issueTemplateHelpUrl":"https://docs.github.com/articles/about-issue-and-pull-request-templates","issueTemplate":null,"discussionTemplate":null,"language":"Markdown","languageID":222,"large":false,"loggedIn":true,"newDiscussionPath":"/ChristianLempa/cheat-sheets/discussions/new","newIssuePath":"/ChristianLempa/cheat-sheets/issues/new","planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/ChristianLempa/cheat-sheets/blob/main/infra/proxmox.md","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","dismissStackNoticePath":"/settings/dismiss-notice/publish_stack_from_file","releasePath":"/ChristianLempa/cheat-sheets/releases/new?marketplace=true","showPublishActionBanner":false,"showPublishStackBanner":false},"rawBlobUrl":"https://github.com/ChristianLempa/cheat-sheets/raw/main/infra/proxmox.md","renderImageOrRaw":false,"richText":"<article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><h1 tabindex=\"-1\" id=\"user-content-proxmox-cheat-sheet\" dir=\"auto\"><a class=\"heading-link\" href=\"#proxmox-cheat-sheet\">Proxmox Cheat-Sheet<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h1>\n<p dir=\"auto\">Proxmox Virtual Environment (Proxmox VE or PVE) is a hyper-converged infrastructure open-source software. It is a hosted hypervisor that can run operating systems including Linux and Windows on x64 hardware. It is a Debian-based Linux distribution with a modified Ubuntu LTS kernel and allows deployment and management of virtual machines and containers. Proxmox VE includes a web console and command-line tools, and provides a REST API for third-party tools. Two types of virtualization are supported: container-based with LXC (starting from version 4.0 replacing OpenVZ used in version up to 3.4, included), and full virtualization with KVM. It includes a web-based management interface.</p>\n<p dir=\"auto\">Proxmox VE is licensed under the GNU Affero General Public License, version 3.</p>\n<p dir=\"auto\">Repository: <a href=\"https://git.proxmox.com\" rel=\"nofollow\">https://git.proxmox.com</a>\nWebsite: <a href=\"https://pve.proxmox.com\" rel=\"nofollow\">https://pve.proxmox.com</a></p>\n<h2 tabindex=\"-1\" id=\"user-content-vm-management\" dir=\"auto\"><a class=\"heading-link\" href=\"#vm-management\">VM Management<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h2>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# list VMs\nqm list\n\n# Create or restore a virtual machine.\nqm create your-vm-id\n\n# start a VM\nqm start your-vm-id\n\n# Suspend virtual machine.\nqm suspend your-vm-id\n\n# shutdown a VM\nqm shutdown your-vm-id\n\n# reboot a VM\nqm reboot your-vm-id\n\n# reset a VM\nqm reset your-vm-id\n\n# stop a VM\nqm stop your-vm-id\n\n# Destroy the VM and all used/owned volumes.\n# Removes any VM specific permissions and firewall rules\nqm destroy your-vm-id\n\n# Enter Qemu Monitor interface.\nqm monitor your-vm-id\n\n# Get the virtual machine configuration with both current and pending values.\nqm pending your-vm-id\n\n# Send key event to virtual machine.\nqm sendkey your-vm-id your-key-event [OPTIONS]\n\n# Show command line which is used to start the VM (debug info).\nqm showcmd your-vm-id [OPTIONS]\n\n# Unlock the VM.\nqm unlock your-vm-id\n\n# Clone a VM\nqm clone your-vm-id new-vm-id\n\n# Migrate a VM\nqm migrate your-vm-id target-node\n\n# Show VM status\nqm status your-vm-id\n\n# Clean up resources for a VM\nqm cleanup your-vm-id your-clean-shutdown your-guest-requested\n\n# Create a Template.\nqm template your-vm-id [OPTIONS]\n\n# Set virtual machine options (synchrounous API)\nqm set your-vm-id [OPTIONS]\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> list VMs</span>\nqm list\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Create or restore a virtual machine.</span>\nqm create your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> start a VM</span>\nqm start your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Suspend virtual machine.</span>\nqm <span class=\"pl-c1\">suspend</span> your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> shutdown a VM</span>\nqm shutdown your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> reboot a VM</span>\nqm reboot your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> reset a VM</span>\nqm reset your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> stop a VM</span>\nqm stop your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Destroy the VM and all used/owned volumes.</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Removes any VM specific permissions and firewall rules</span>\nqm destroy your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Enter Qemu Monitor interface.</span>\nqm monitor your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Get the virtual machine configuration with both current and pending values.</span>\nqm pending your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Send key event to virtual machine.</span>\nqm sendkey your-vm-id your-key-event [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Show command line which is used to start the VM (debug info).</span>\nqm showcmd your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Unlock the VM.</span>\nqm unlock your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Clone a VM</span>\nqm clone your-vm-id new-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Migrate a VM</span>\nqm migrate your-vm-id target-node\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Show VM status</span>\nqm status your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Clean up resources for a VM</span>\nqm cleanup your-vm-id your-clean-shutdown your-guest-requested\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a Template.</span>\nqm template your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Set virtual machine options (synchrounous API)</span>\nqm <span class=\"pl-c1\">set</span> your-vm-id [OPTIONS]</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-cloudinit\" dir=\"auto\"><a class=\"heading-link\" href=\"#cloudinit\">Cloudinit<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Get automatically generated cloudinit config.\nqm cloudinit dump your-vm-id your-vm-type\n\n# Get the cloudinit configuration with both current and pending values.\nqm cloudinit pending your-vm-id\n\n# Regenerate and change cloudinit config drive.\nqm cloudinit update your-vm-id\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Get automatically generated cloudinit config.</span>\nqm cloudinit dump your-vm-id your-vm-type\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Get the cloudinit configuration with both current and pending values.</span>\nqm cloudinit pending your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Regenerate and change cloudinit config drive.</span>\nqm cloudinit update your-vm-id</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-disk\" dir=\"auto\"><a class=\"heading-link\" href=\"#disk\">Disk<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Import an external disk image as an unused disk in a VM.\n# The image format has to be supported by qemu-img(1).\nqm disk import your-vm-id your-target-source your-target-storage\n\n# Move volume to different storage or to a different VM.\nqm disk move your-vm-id your-vm-disk [&lt;storage&gt;] [OPTIONS]\n\n# Rescan all storages and update disk sizes and unused disk images.\nqm disk rescan [OPTIONS]\n\n# Extend volume size.\nqm disk resize your-vm-id your-vm-disk &lt;size&gt; [OPTIONS]\n\n# Unlink/delete disk images.\nqm disk unlink your-vm-id --idlist &lt;string&gt; [OPTIONS]\n\n# rescan volumes\nqm rescan\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Import an external disk image as an unused disk in a VM.</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> The image format has to be supported by qemu-img(1).</span>\nqm disk import your-vm-id your-target-source your-target-storage\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Move volume to different storage or to a different VM.</span>\nqm disk move your-vm-id your-vm-disk [<span class=\"pl-k\">&lt;</span>storage<span class=\"pl-k\">&gt;</span>] [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Rescan all storages and update disk sizes and unused disk images.</span>\nqm disk rescan [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Extend volume size.</span>\nqm disk resize your-vm-id your-vm-disk <span class=\"pl-k\">&lt;</span>size<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Unlink/delete disk images.</span>\nqm disk unlink your-vm-id --idlist <span class=\"pl-k\">&lt;</span>string<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> rescan volumes</span>\nqm rescan</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-snapshot\" dir=\"auto\"><a class=\"heading-link\" href=\"#snapshot\">Snapshot<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# List all snapshots.\nqm listsnapshot your-vm-id\n\n# Snapshot a VM\nqm snapshot your-vm-id &lt;snapname&gt;\n\n# Delete a snapshot.\nqm delsnapshot your-vm-id &lt;snapname&gt;\n\n# Rollback a snapshot\nqm rollback your-vm-id &lt;snapname&gt;\n\n# Open a terminal using a serial device\n# (The VM need to have a serial device configured, for example serial0: socket)\nqm terminal your-vm-id [OPTIONS]\n\n# Proxy VM VNC traffic to stdin/stdout\nqm vncproxy your-vm-id\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> List all snapshots.</span>\nqm listsnapshot your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Snapshot a VM</span>\nqm snapshot your-vm-id <span class=\"pl-k\">&lt;</span>snapname<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Delete a snapshot.</span>\nqm delsnapshot your-vm-id <span class=\"pl-k\">&lt;</span>snapname<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Rollback a snapshot</span>\nqm rollback your-vm-id <span class=\"pl-k\">&lt;</span>snapname<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Open a terminal using a serial device</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> (The VM need to have a serial device configured, for example serial0: socket)</span>\nqm terminal your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Proxy VM VNC traffic to stdin/stdout</span>\nqm vncproxy your-vm-id</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-misc\" dir=\"auto\"><a class=\"heading-link\" href=\"#misc\">Misc<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Execute Qemu Guest Agent commands.\nqm guest cmd your-vm-id &lt;command&gt;\n\n# Executes the given command via the guest agent\nqm guest exec your-vm-id [&lt;extra-args&gt;] [OPTIONS]\n\n# Gets the status of the given pid started by the guest-agent\nqm guest exec-status your-vm-id &lt;pid&gt;\n\n# Sets the password for the given user to the given password\nqm guest passwd your-vm-id &lt;username&gt; [OPTIONS]\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Execute Qemu Guest Agent commands.</span>\nqm guest cmd your-vm-id <span class=\"pl-k\">&lt;</span>command<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Executes the given command via the guest agent</span>\nqm guest <span class=\"pl-c1\">exec</span> your-vm-id [<span class=\"pl-k\">&lt;</span>extra-args<span class=\"pl-k\">&gt;</span>] [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Gets the status of the given pid started by the guest-agent</span>\nqm guest exec-status your-vm-id <span class=\"pl-k\">&lt;</span>pid<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Sets the password for the given user to the given password</span>\nqm guest passwd your-vm-id <span class=\"pl-k\">&lt;</span>username<span class=\"pl-k\">&gt;</span> [OPTIONS]</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-pv-vg-lv-management\" dir=\"auto\"><a class=\"heading-link\" href=\"#pv-vg-lv-management\">PV, VG, LV Management<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Create a PV\npvcreate &lt;disk-device-name&gt;\n\n# Remove a PV\npvremove &lt;disk-device-name&gt;\n\n# List all PVs\npvs\n\n# Create a VG\nvgcreate &lt;vg-name&gt; &lt;disk-device-name&gt;\n\n# Remove a VG\nvgremove &lt;vg-name&gt;\n\n# List all VGs\nvgs\n\n# Create a LV\nlvcreate -L &lt;lv-size&gt; -n &lt;lv-name&gt; &lt;vg-name&gt;\n\n# Remove a LV\nlvremove &lt;vg-name&gt;/&lt;lv-name&gt;\n\n# List all LVs\nlvs\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a PV</span>\npvcreate <span class=\"pl-k\">&lt;</span>disk-device-name<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Remove a PV</span>\npvremove <span class=\"pl-k\">&lt;</span>disk-device-name<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> List all PVs</span>\npvs\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a VG</span>\nvgcreate <span class=\"pl-k\">&lt;</span>vg-name<span class=\"pl-k\">&gt;</span> <span class=\"pl-k\">&lt;</span>disk-device-name<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Remove a VG</span>\nvgremove <span class=\"pl-k\">&lt;</span>vg-name<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> List all VGs</span>\nvgs\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a LV</span>\nlvcreate -L <span class=\"pl-k\">&lt;</span>lv-size<span class=\"pl-k\">&gt;</span> -n <span class=\"pl-k\">&lt;</span>lv-name<span class=\"pl-k\">&gt;</span> <span class=\"pl-k\">&lt;</span>vg-name<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Remove a LV</span>\nlvremove <span class=\"pl-k\">&lt;</span>vg-name<span class=\"pl-k\">&gt;</span>/<span class=\"pl-k\">&lt;</span>lv-name<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> List all LVs</span>\nlvs</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-storage-management\" dir=\"auto\"><a class=\"heading-link\" href=\"#storage-management\">Storage Management<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Create a new storage.\npvesm add &lt;type&gt; &lt;storage&gt; [OPTIONS]\n\n# Allocate disk images.\npvesm alloc &lt;storage&gt; your-vm-id &lt;filename&gt; &lt;size&gt; [OPTIONS]\n\n# Delete volume\npvesm free &lt;volume&gt; [OPTIONS]\n\n# Delete storage configuration.\npvesm remove &lt;storage&gt;\n\n# List storage content.\npvesm list &lt;storage&gt; [OPTIONS]\n\n# An alias for pvesm scan lvm.\npvesm lvmscan\n\n# An alias for pvesm scan lvmthin.\npvesm lvmthinscan\n\n# List local LVM volume groups.\npvesm scan lvm\n\n# List local LVM Thin Pools.\npvesm scan lvmthin &lt;vg&gt;\n\n# Get status for all datastores.\npvesm status [OPTIONS]\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a new storage.</span>\npvesm add <span class=\"pl-k\">&lt;</span>type<span class=\"pl-k\">&gt;</span> <span class=\"pl-k\">&lt;</span>storage<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Allocate disk images.</span>\npvesm alloc <span class=\"pl-k\">&lt;</span>storage<span class=\"pl-k\">&gt;</span> your-vm-id <span class=\"pl-k\">&lt;</span>filename<span class=\"pl-k\">&gt;</span> <span class=\"pl-k\">&lt;</span>size<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Delete volume</span>\npvesm free <span class=\"pl-k\">&lt;</span>volume<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Delete storage configuration.</span>\npvesm remove <span class=\"pl-k\">&lt;</span>storage<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> List storage content.</span>\npvesm list <span class=\"pl-k\">&lt;</span>storage<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> An alias for pvesm scan lvm.</span>\npvesm lvmscan\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> An alias for pvesm scan lvmthin.</span>\npvesm lvmthinscan\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> List local LVM volume groups.</span>\npvesm scan lvm\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> List local LVM Thin Pools.</span>\npvesm scan lvmthin <span class=\"pl-k\">&lt;</span>vg<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Get status for all datastores.</span>\npvesm status [OPTIONS]</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-template-management\" dir=\"auto\"><a class=\"heading-link\" href=\"#template-management\">Template Management<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# list all templates\npveam available\n\n# list all templates\npveam list &lt;storage&gt;\n\n# Download appliance templates\npveam download &lt;storage&gt; &lt;template&gt;\n\n# Remove a template.\npveam remove &lt;template-path&gt;\n\n# Update Container Template Database.\npveam update\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> list all templates</span>\npveam available\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> list all templates</span>\npveam list <span class=\"pl-k\">&lt;</span>storage<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Download appliance templates</span>\npveam download <span class=\"pl-k\">&lt;</span>storage<span class=\"pl-k\">&gt;</span> <span class=\"pl-k\">&lt;</span>template<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Remove a template.</span>\npveam remove <span class=\"pl-k\">&lt;</span>template-path<span class=\"pl-k\">&gt;</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Update Container Template Database.</span>\npveam update</pre></div>\n<h2 tabindex=\"-1\" id=\"user-content-certificate-management\" dir=\"auto\"><a class=\"heading-link\" href=\"#certificate-management\">Certificate Management<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h2>\n<p dir=\"auto\">See the <a href=\"/ChristianLempa/cheat-sheets/blob/main/infra/proxmox-certificate-management.md\">Proxmox Certificate Management</a> cheat sheet.</p>\n<h2 tabindex=\"-1\" id=\"user-content-container-management\" dir=\"auto\"><a class=\"heading-link\" href=\"#container-management\">Container Management<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h2>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# List containers\npct list\n\n# Create or restore a container.\npct create your-vm-id &lt;ostemplate&gt; [OPTIONS]\n\n# Start the container.\npct start your-vm-id [OPTIONS]\n\n# Create a container clone/copy\npct clone your-vm-id new-vm-id [OPTIONS]\n\n# Suspend the container. This is experimental.\npct suspend your-vm-id\n\n# Resume the container.\npct resume your-vm-id\n\n# Stop the container.\n# This will abruptly stop all processes running in the container.\npct stop your-vm-id [OPTIONS]\n\n# Shutdown the container.\n# This will trigger a clean shutdown of the container, see lxc-stop(1) for details.\npct shutdown your-vm-id [OPTIONS]\n\n# Destroy the container (also delete all uses files).\npct destroy your-vm-id [OPTIONS]\n\n# Show CT status.\npct status your-vm-id [OPTIONS]\n\n# Migrate the container to another node. Creates a new migration task.\npct migrate your-vm-id &lt;target&gt; [OPTIONS]\n\n# Get container configuration.\npct config your-vm-id [OPTIONS]\n\n# Print the list of assigned CPU sets.\npct cpusets\n\n# Get container configuration, including pending changes.\npct pending your-vm-id\n\n# Reboot the container by shutting it down, and starting it again. Applies pending changes.\npct reboot your-vm-id [OPTIONS]\n\n# Create or restore a container.\npct restore your-vm-id &lt;ostemplate&gt; [OPTIONS]\n\n# Set container options.\npct set your-vm-id [OPTIONS]\n\n# Create a Template.\npct template your-vm-id\n\n# Unlock the VM.\npct unlock your-vm-id\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> List containers</span>\npct list\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Create or restore a container.</span>\npct create your-vm-id <span class=\"pl-k\">&lt;</span>ostemplate<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Start the container.</span>\npct start your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a container clone/copy</span>\npct clone your-vm-id new-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Suspend the container. This is experimental.</span>\npct <span class=\"pl-c1\">suspend</span> your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Resume the container.</span>\npct resume your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Stop the container.</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> This will abruptly stop all processes running in the container.</span>\npct stop your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Shutdown the container.</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> This will trigger a clean shutdown of the container, see lxc-stop(1) for details.</span>\npct shutdown your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Destroy the container (also delete all uses files).</span>\npct destroy your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Show CT status.</span>\npct status your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Migrate the container to another node. Creates a new migration task.</span>\npct migrate your-vm-id <span class=\"pl-k\">&lt;</span>target<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Get container configuration.</span>\npct config your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Print the list of assigned CPU sets.</span>\npct cpusets\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Get container configuration, including pending changes.</span>\npct pending your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Reboot the container by shutting it down, and starting it again. Applies pending changes.</span>\npct reboot your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Create or restore a container.</span>\npct restore your-vm-id <span class=\"pl-k\">&lt;</span>ostemplate<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Set container options.</span>\npct <span class=\"pl-c1\">set</span> your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a Template.</span>\npct template your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Unlock the VM.</span>\npct unlock your-vm-id</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-container-disks\" dir=\"auto\"><a class=\"heading-link\" href=\"#container-disks\">Container Disks<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Get the container?s current disk usage.\npct df your-vm-id\n\n# Run a filesystem check (fsck) on a container volume.\npct fsck your-vm-id [OPTIONS]\n\n# Run fstrim on a chosen CT and its mountpoints.\npct fstrim your-vm-id [OPTIONS]\n\n# Mount the container?s filesystem on the host.\n# This will hold a lock on the container and is meant for emergency maintenance only\n# as it will prevent further operations on the container other than start and stop.\npct mount your-vm-id\n\n# Move a rootfs-/mp-volume to a different storage or to a different container.\npct move-volume your-vm-id &lt;volume&gt; [&lt;storage&gt;] [&lt;target-vmid&gt;] [&lt;target-volume&gt;] [OPTIONS]\n\n# Unmount the container?s filesystem.\npct unmount your-vm-id\n\n# Resize a container mount point.\npct resize your-vm-id your-vm-disk &lt;size&gt; [OPTIONS]\n\n# Rescan all storages and update disk sizes and unused disk images.\npct rescan [OPTIONS]\n\n# Connect to container\npct enter your-vm-id\n\n# Launch a console for the specified container.\npct console your-vm-id [OPTIONS]\n\n# Launch a shell for the specified container.\npct enter your-vm-id\n\n# Launch a command inside the specified container.\npct exec your-vm-id [&lt;extra-args&gt;]\n\n# Copy a file from the container to the local system.\npct pull your-vm-id &lt;path&gt; &lt;destination&gt; [OPTIONS]\n\n# Copy a local file to the container.\npct push your-vm-id &lt;file&gt; &lt;destination&gt; [OPTIONS]\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Get the container?s current disk usage.</span>\npct df your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Run a filesystem check (fsck) on a container volume.</span>\npct fsck your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Run fstrim on a chosen CT and its mountpoints.</span>\npct fstrim your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Mount the container?s filesystem on the host.</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> This will hold a lock on the container and is meant for emergency maintenance only</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> as it will prevent further operations on the container other than start and stop.</span>\npct mount your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Move a rootfs-/mp-volume to a different storage or to a different container.</span>\npct move-volume your-vm-id <span class=\"pl-k\">&lt;</span>volume<span class=\"pl-k\">&gt;</span> [<span class=\"pl-k\">&lt;</span>storage<span class=\"pl-k\">&gt;</span>] [<span class=\"pl-k\">&lt;</span>target-vmid<span class=\"pl-k\">&gt;</span>] [<span class=\"pl-k\">&lt;</span>target-volume<span class=\"pl-k\">&gt;</span>] [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Unmount the container?s filesystem.</span>\npct unmount your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Resize a container mount point.</span>\npct resize your-vm-id your-vm-disk <span class=\"pl-k\">&lt;</span>size<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Rescan all storages and update disk sizes and unused disk images.</span>\npct rescan [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Connect to container</span>\npct enter your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Launch a console for the specified container.</span>\npct console your-vm-id [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Launch a shell for the specified container.</span>\npct enter your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Launch a command inside the specified container.</span>\npct <span class=\"pl-c1\">exec</span> your-vm-id [<span class=\"pl-k\">&lt;</span>extra-args<span class=\"pl-k\">&gt;</span>]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Copy a file from the container to the local system.</span>\npct pull your-vm-id <span class=\"pl-k\">&lt;</span>path<span class=\"pl-k\">&gt;</span> <span class=\"pl-k\">&lt;</span>destination<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Copy a local file to the container.</span>\npct push your-vm-id <span class=\"pl-k\">&lt;</span>file<span class=\"pl-k\">&gt;</span> <span class=\"pl-k\">&lt;</span>destination<span class=\"pl-k\">&gt;</span> [OPTIONS]</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-container-snapshot\" dir=\"auto\"><a class=\"heading-link\" href=\"#container-snapshot\">Container Snapshot<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Snapshot a container.\npct snapshot your-vm-id &lt;snapname&gt; [OPTIONS]\n\n# List all snapshots.\npct listsnapshot your-vm-id\n\n# Rollback LXC state to specified snapshot.\npct rollback your-vm-id &lt;snapname&gt; [OPTIONS]\n\n# Delete a LXC snapshot.\npct delsnapshot your-vm-id &lt;snapname&gt; [OPTIONS]\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Snapshot a container.</span>\npct snapshot your-vm-id <span class=\"pl-k\">&lt;</span>snapname<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> List all snapshots.</span>\npct listsnapshot your-vm-id\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Rollback LXC state to specified snapshot.</span>\npct rollback your-vm-id <span class=\"pl-k\">&lt;</span>snapname<span class=\"pl-k\">&gt;</span> [OPTIONS]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Delete a LXC snapshot.</span>\npct delsnapshot your-vm-id <span class=\"pl-k\">&lt;</span>snapname<span class=\"pl-k\">&gt;</span> [OPTIONS]</pre></div>\n<h2 tabindex=\"-1\" id=\"user-content-web-gui\" dir=\"auto\"><a class=\"heading-link\" href=\"#web-gui\">Web GUI<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h2>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Restart web GUI\nservice pveproxy restart\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Restart web GUI</span>\nservice pveproxy restart</pre></div>\n<h2 tabindex=\"-1\" id=\"user-content-resize-disk\" dir=\"auto\"><a class=\"heading-link\" href=\"#resize-disk\">Resize Disk<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h2>\n<h3 tabindex=\"-1\" id=\"user-content-increase-disk-size\" dir=\"auto\"><a class=\"heading-link\" href=\"#increase-disk-size\">Increase disk size<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<p dir=\"auto\">Increase disk size in the GUI or with the following command</p>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"qm resize 100 virtio0 +5G\"><pre>qm resize 100 virtio0 +5G</pre></div>\n<h3 tabindex=\"-1\" id=\"user-content-decrease-disk-size\" dir=\"auto\"><a class=\"heading-link\" href=\"#decrease-disk-size\">Decrease disk size<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h3>\n<blockquote>\n<p dir=\"auto\">Before decreasing disk sizes in Proxmox, you should take a backup!</p>\n</blockquote>\n<ol dir=\"auto\">\n<li>Convert qcow2 to raw: <code>qemu-img convert vm-100.qcow2 vm-100.raw</code></li>\n<li>Shrink the disk <code>qemu-img resize -f raw vm-100.raw 10G</code></li>\n<li>Convert back to qcow2 <code>qemu-img convert -p -O qcow2 vm-100.raw vm-100.qcow2</code></li>\n</ol>\n<h2 tabindex=\"-1\" id=\"user-content-further-information\" dir=\"auto\"><a class=\"heading-link\" href=\"#further-information\">Further information<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h2>\n<p dir=\"auto\">More examples and tutorials regarding Proxmox can be found in the link list below:</p>\n<ul dir=\"auto\">\n<li>Ansible playbook that automates Linux VM updates running on Proxmox (including snapshots): <a href=\"https://github.com/thedatabaseme/update_proxmox_vm\">TheDatabaseMe - update_proxmox_vm</a></li>\n<li>Manage Proxmox VM templates with Packer: <a href=\"https://thedatabaseme.de/2022/10/16/what-a-golden-boy-use-packer-to-build-proxmox-images/\" rel=\"nofollow\">Use Packer to build Proxmox images</a></li>\n</ul>\n</article>","renderedFileInfo":null,"shortPath":null,"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"repoOwner":"ChristianLempa","repoName":"cheat-sheets","showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","showDependabotConfigurationBanner":false,"actionsOnboardingTip":null},"truncated":false,"viewable":true,"workflowRedirectUrl":null,"symbols":{"timedOut":false,"notAnalyzed":false,"symbols":[{"name":" Proxmox Cheat-Sheet","kind":"section_1","identStart":1,"identEnd":21,"extentStart":0,"extentEnd":9419,"fullyQualifiedName":" Proxmox Cheat-Sheet","identUtf16":{"start":{"lineNumber":0,"utf16Col":1},"end":{"lineNumber":0,"utf16Col":21}},"extentUtf16":{"start":{"lineNumber":0,"utf16Col":0},"end":{"lineNumber":395,"utf16Col":0}}},{"name":" VM Management","kind":"section_2","identStart":920,"identEnd":934,"extentStart":918,"extentEnd":5164,"fullyQualifiedName":" VM Management","identUtf16":{"start":{"lineNumber":9,"utf16Col":2},"end":{"lineNumber":9,"utf16Col":16}},"extentUtf16":{"start":{"lineNumber":9,"utf16Col":0},"end":{"lineNumber":233,"utf16Col":0}}},{"name":" Cloudinit","kind":"section_3","identStart":2121,"identEnd":2131,"extentStart":2118,"extentEnd":2422,"fullyQualifiedName":" Cloudinit","identUtf16":{"start":{"lineNumber":74,"utf16Col":3},"end":{"lineNumber":74,"utf16Col":13}},"extentUtf16":{"start":{"lineNumber":74,"utf16Col":0},"end":{"lineNumber":87,"utf16Col":0}}},{"name":" Disk","kind":"section_3","identStart":2425,"identEnd":2430,"extentStart":2422,"extentEnd":3027,"fullyQualifiedName":" Disk","identUtf16":{"start":{"lineNumber":87,"utf16Col":3},"end":{"lineNumber":87,"utf16Col":8}},"extentUtf16":{"start":{"lineNumber":87,"utf16Col":0},"end":{"lineNumber":110,"utf16Col":0}}},{"name":" Snapshot","kind":"section_3","identStart":3030,"identEnd":3039,"extentStart":3027,"extentEnd":3488,"fullyQualifiedName":" Snapshot","identUtf16":{"start":{"lineNumber":110,"utf16Col":3},"end":{"lineNumber":110,"utf16Col":12}},"extentUtf16":{"start":{"lineNumber":110,"utf16Col":0},"end":{"lineNumber":133,"utf16Col":0}}},{"name":" Misc","kind":"section_3","identStart":3491,"identEnd":3496,"extentStart":3488,"extentEnd":3894,"fullyQualifiedName":" Misc","identUtf16":{"start":{"lineNumber":133,"utf16Col":3},"end":{"lineNumber":133,"utf16Col":8}},"extentUtf16":{"start":{"lineNumber":133,"utf16Col":0},"end":{"lineNumber":149,"utf16Col":0}}},{"name":" PV, VG, LV Management","kind":"section_3","identStart":3897,"identEnd":3919,"extentStart":3894,"extentEnd":4271,"fullyQualifiedName":" PV, VG, LV Management","identUtf16":{"start":{"lineNumber":149,"utf16Col":3},"end":{"lineNumber":149,"utf16Col":25}},"extentUtf16":{"start":{"lineNumber":149,"utf16Col":0},"end":{"lineNumber":180,"utf16Col":0}}},{"name":" Storage Management","kind":"section_3","identStart":4274,"identEnd":4293,"extentStart":4271,"extentEnd":4874,"fullyQualifiedName":" Storage Management","identUtf16":{"start":{"lineNumber":180,"utf16Col":3},"end":{"lineNumber":180,"utf16Col":22}},"extentUtf16":{"start":{"lineNumber":180,"utf16Col":0},"end":{"lineNumber":214,"utf16Col":0}}},{"name":" Template Management","kind":"section_3","identStart":4877,"identEnd":4897,"extentStart":4874,"extentEnd":5164,"fullyQualifiedName":" Template Management","identUtf16":{"start":{"lineNumber":214,"utf16Col":3},"end":{"lineNumber":214,"utf16Col":23}},"extentUtf16":{"start":{"lineNumber":214,"utf16Col":0},"end":{"lineNumber":233,"utf16Col":0}}},{"name":" Certificate Management","kind":"section_2","identStart":5166,"identEnd":5189,"extentStart":5164,"extentEnd":5281,"fullyQualifiedName":" Certificate Management","identUtf16":{"start":{"lineNumber":233,"utf16Col":2},"end":{"lineNumber":233,"utf16Col":25}},"extentUtf16":{"start":{"lineNumber":233,"utf16Col":0},"end":{"lineNumber":237,"utf16Col":0}}},{"name":" Container Management","kind":"section_2","identStart":5283,"identEnd":5304,"extentStart":5281,"extentEnd":8447,"fullyQualifiedName":" Container Management","identUtf16":{"start":{"lineNumber":237,"utf16Col":2},"end":{"lineNumber":237,"utf16Col":23}},"extentUtf16":{"start":{"lineNumber":237,"utf16Col":0},"end":{"lineNumber":364,"utf16Col":0}}},{"name":" Container Disks","kind":"section_3","identStart":6737,"identEnd":6753,"extentStart":6734,"extentEnd":8125,"fullyQualifiedName":" Container Disks","identUtf16":{"start":{"lineNumber":300,"utf16Col":3},"end":{"lineNumber":300,"utf16Col":19}},"extentUtf16":{"start":{"lineNumber":300,"utf16Col":0},"end":{"lineNumber":348,"utf16Col":0}}},{"name":" Container Snapshot","kind":"section_3","identStart":8128,"identEnd":8147,"extentStart":8125,"extentEnd":8447,"fullyQualifiedName":" Container Snapshot","identUtf16":{"start":{"lineNumber":348,"utf16Col":3},"end":{"lineNumber":348,"utf16Col":22}},"extentUtf16":{"start":{"lineNumber":348,"utf16Col":0},"end":{"lineNumber":364,"utf16Col":0}}},{"name":" Web GUI","kind":"section_2","identStart":8449,"identEnd":8457,"extentStart":8447,"extentEnd":8516,"fullyQualifiedName":" Web GUI","identUtf16":{"start":{"lineNumber":364,"utf16Col":2},"end":{"lineNumber":364,"utf16Col":10}},"extentUtf16":{"start":{"lineNumber":364,"utf16Col":0},"end":{"lineNumber":371,"utf16Col":0}}},{"name":" Resize Disk","kind":"section_2","identStart":8518,"identEnd":8530,"extentStart":8516,"extentEnd":8959,"fullyQualifiedName":" Resize Disk","identUtf16":{"start":{"lineNumber":371,"utf16Col":2},"end":{"lineNumber":371,"utf16Col":14}},"extentUtf16":{"start":{"lineNumber":371,"utf16Col":0},"end":{"lineNumber":389,"utf16Col":0}}},{"name":" Increase disk size","kind":"section_3","identStart":8535,"identEnd":8554,"extentStart":8532,"extentEnd":8657,"fullyQualifiedName":" Increase disk size","identUtf16":{"start":{"lineNumber":373,"utf16Col":3},"end":{"lineNumber":373,"utf16Col":22}},"extentUtf16":{"start":{"lineNumber":373,"utf16Col":0},"end":{"lineNumber":381,"utf16Col":0}}},{"name":" Decrease disk size","kind":"section_3","identStart":8660,"identEnd":8679,"extentStart":8657,"extentEnd":8959,"fullyQualifiedName":" Decrease disk size","identUtf16":{"start":{"lineNumber":381,"utf16Col":3},"end":{"lineNumber":381,"utf16Col":22}},"extentUtf16":{"start":{"lineNumber":381,"utf16Col":0},"end":{"lineNumber":389,"utf16Col":0}}},{"name":" Further information","kind":"section_2","identStart":8961,"identEnd":8981,"extentStart":8959,"extentEnd":9419,"fullyQualifiedName":" Further information","identUtf16":{"start":{"lineNumber":389,"utf16Col":2},"end":{"lineNumber":389,"utf16Col":22}},"extentUtf16":{"start":{"lineNumber":389,"utf16Col":0},"end":{"lineNumber":395,"utf16Col":0}}}]}},"copilotInfo":{"documentationUrl":"https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals","notices":{"codeViewPopover":{"dismissed":false,"dismissPath":"/settings/dismiss-notice/code_view_copilot_popover"}},"userAccess":{"accessAllowed":false,"hasSubscriptionEnded":false,"orgHasCFBAccess":false,"userHasCFIAccess":false,"userHasOrgs":false,"userIsOrgAdmin":false,"userIsOrgMember":false,"business":null,"featureRequestInfo":null}},"csrf_tokens":{"/ChristianLempa/cheat-sheets/branches":{"post":"gqOQ6e430WRmf7p34faCReC5Dli-P4QWusVttYoe80TmeGiDRKnQd7eG9PNbdlJR59VOgarP4sowFhpB5_QPOA"},"/repos/preferences":{"post":"1dhEG2A13Jw_J7PYJqUnKRZY4S2ea7aKeAzYtfIRXuYobWknPYme77uh6ZTvwQh0RqnfsQjgujZp-0-pWiQC0g"}}},"title":"cheat-sheets/infra/proxmox.md at main · ChristianLempa/cheat-sheets"}
+# Proxmox Cheat-Sheet
+
+Proxmox Virtual Environment (Proxmox VE or PVE) is a hyper-converged infrastructure open-source software. It is a hosted hypervisor that can run operating systems including Linux and Windows on x64 hardware. It is a Debian-based Linux distribution with a modified Ubuntu LTS kernel and allows deployment and management of virtual machines and containers. Proxmox VE includes a web console and command-line tools, and provides a REST API for third-party tools. Two types of virtualization are supported: container-based with LXC (starting from version 4.0 replacing OpenVZ used in version up to 3.4, included), and full virtualization with KVM. It includes a web-based management interface.
+
+Proxmox VE is licensed under the GNU Affero General Public License, version 3.
+
+Repository: [https://git.proxmox.com](https://git.proxmox.com)
+Website: [https://pve.proxmox.com](https://pve.proxmox.com)
+
+## VM Management
+
+```shell
+# list VMs
+qm list
+
+# Create or restore a virtual machine.
+qm create your-vm-id
+
+# start a VM
+qm start your-vm-id
+
+# Suspend virtual machine.
+qm suspend your-vm-id
+
+# shutdown a VM
+qm shutdown your-vm-id
+
+# reboot a VM
+qm reboot your-vm-id
+
+# reset a VM
+qm reset your-vm-id
+
+# stop a VM
+qm stop your-vm-id
+
+# Destroy the VM and all used/owned volumes.
+# Removes any VM specific permissions and firewall rules
+qm destroy your-vm-id
+
+# Enter Qemu Monitor interface.
+qm monitor your-vm-id
+
+# Get the virtual machine configuration with both current and pending values.
+qm pending your-vm-id
+
+# Send key event to virtual machine.
+qm sendkey your-vm-id your-key-event [OPTIONS]
+
+# Show command line which is used to start the VM (debug info).
+qm showcmd your-vm-id [OPTIONS]
+
+# Unlock the VM.
+qm unlock your-vm-id
+
+# Clone a VM
+qm clone your-vm-id new-vm-id
+
+# Migrate a VM
+qm migrate your-vm-id target-node
+
+# Show VM status
+qm status your-vm-id
+
+# Clean up resources for a VM
+qm cleanup your-vm-id your-clean-shutdown your-guest-requested
+
+# Create a Template.
+qm template your-vm-id [OPTIONS]
+
+# Set virtual machine options (synchrounous API)
+qm set your-vm-id [OPTIONS]
+```
+
+### Cloudinit
+
+```shell
+# Get automatically generated cloudinit config.
+qm cloudinit dump your-vm-id your-vm-type
+
+# Get the cloudinit configuration with both current and pending values.
+qm cloudinit pending your-vm-id
+
+# Regenerate and change cloudinit config drive.
+qm cloudinit update your-vm-id
+```
+
+### Disk
+
+```shell
+# Import an external disk image as an unused disk in a VM.
+# The image format has to be supported by qemu-img(1).
+qm disk import your-vm-id your-target-source your-target-storage
+
+# Move volume to different storage or to a different VM.
+qm disk move your-vm-id your-vm-disk [<storage>] [OPTIONS]
+
+# Rescan all storages and update disk sizes and unused disk images.
+qm disk rescan [OPTIONS]
+
+# Extend volume size.
+qm disk resize your-vm-id your-vm-disk <size> [OPTIONS]
+
+# Unlink/delete disk images.
+qm disk unlink your-vm-id --idlist <string> [OPTIONS]
+
+# rescan volumes
+qm rescan
+```
+
+### Snapshot
+
+```shell
+# List all snapshots.
+qm listsnapshot your-vm-id
+
+# Snapshot a VM
+qm snapshot your-vm-id <snapname>
+
+# Delete a snapshot.
+qm delsnapshot your-vm-id <snapname>
+
+# Rollback a snapshot
+qm rollback your-vm-id <snapname>
+
+# Open a terminal using a serial device
+# (The VM need to have a serial device configured, for example serial0: socket)
+qm terminal your-vm-id [OPTIONS]
+
+# Proxy VM VNC traffic to stdin/stdout
+qm vncproxy your-vm-id
+```
+
+### Misc
+
+```shell
+# Execute Qemu Guest Agent commands.
+qm guest cmd your-vm-id <command>
+
+# Executes the given command via the guest agent
+qm guest exec your-vm-id [<extra-args>] [OPTIONS]
+
+# Gets the status of the given pid started by the guest-agent
+qm guest exec-status your-vm-id <pid>
+
+# Sets the password for the given user to the given password
+qm guest passwd your-vm-id <username> [OPTIONS]
+```
+
+### PV, VG, LV Management
+
+```shell
+# Create a PV
+pvcreate <disk-device-name>
+
+# Remove a PV
+pvremove <disk-device-name>
+
+# List all PVs
+pvs
+
+# Create a VG
+vgcreate <vg-name> <disk-device-name>
+
+# Remove a VG
+vgremove <vg-name>
+
+# List all VGs
+vgs
+
+# Create a LV
+lvcreate -L <lv-size> -n <lv-name> <vg-name>
+
+# Remove a LV
+lvremove <vg-name>/<lv-name>
+
+# List all LVs
+lvs
+```
+
+### Storage Management
+
+```shell
+# Create a new storage.
+pvesm add <type> <storage> [OPTIONS]
+
+# Allocate disk images.
+pvesm alloc <storage> your-vm-id <filename> <size> [OPTIONS]
+
+# Delete volume
+pvesm free <volume> [OPTIONS]
+
+# Delete storage configuration.
+pvesm remove <storage>
+
+# List storage content.
+pvesm list <storage> [OPTIONS]
+
+# An alias for pvesm scan lvm.
+pvesm lvmscan
+
+# An alias for pvesm scan lvmthin.
+pvesm lvmthinscan
+
+# List local LVM volume groups.
+pvesm scan lvm
+
+# List local LVM Thin Pools.
+pvesm scan lvmthin <vg>
+
+# Get status for all datastores.
+pvesm status [OPTIONS]
+```
+
+### Template Management
+
+```shell
+# list all templates
+pveam available
+
+# list all templates
+pveam list <storage>
+
+# Download appliance templates
+pveam download <storage> <template>
+
+# Remove a template.
+pveam remove <template-path>
+
+# Update Container Template Database.
+pveam update
+```
+
+## Certificate Management
+
+See the [Proxmox Certificate Management](proxmox-certificate-management.md) cheat sheet.
+
+## Container Management
+
+```shell
+# List containers
+pct list
+
+# Create or restore a container.
+pct create your-vm-id <ostemplate> [OPTIONS]
+
+# Start the container.
+pct start your-vm-id [OPTIONS]
+
+# Create a container clone/copy
+pct clone your-vm-id new-vm-id [OPTIONS]
+
+# Suspend the container. This is experimental.
+pct suspend your-vm-id
+
+# Resume the container.
+pct resume your-vm-id
+
+# Stop the container.
+# This will abruptly stop all processes running in the container.
+pct stop your-vm-id [OPTIONS]
+
+# Shutdown the container.
+# This will trigger a clean shutdown of the container, see lxc-stop(1) for details.
+pct shutdown your-vm-id [OPTIONS]
+
+# Destroy the container (also delete all uses files).
+pct destroy your-vm-id [OPTIONS]
+
+# Show CT status.
+pct status your-vm-id [OPTIONS]
+
+# Migrate the container to another node. Creates a new migration task.
+pct migrate your-vm-id <target> [OPTIONS]
+
+# Get container configuration.
+pct config your-vm-id [OPTIONS]
+
+# Print the list of assigned CPU sets.
+pct cpusets
+
+# Get container configuration, including pending changes.
+pct pending your-vm-id
+
+# Reboot the container by shutting it down, and starting it again. Applies pending changes.
+pct reboot your-vm-id [OPTIONS]
+
+# Create or restore a container.
+pct restore your-vm-id <ostemplate> [OPTIONS]
+
+# Set container options.
+pct set your-vm-id [OPTIONS]
+
+# Create a Template.
+pct template your-vm-id
+
+# Unlock the VM.
+pct unlock your-vm-id
+```
+
+### Container Disks
+
+```shell
+# Get the container?s current disk usage.
+pct df your-vm-id
+
+# Run a filesystem check (fsck) on a container volume.
+pct fsck your-vm-id [OPTIONS]
+
+# Run fstrim on a chosen CT and its mountpoints.
+pct fstrim your-vm-id [OPTIONS]
+
+# Mount the container?s filesystem on the host.
+# This will hold a lock on the container and is meant for emergency maintenance only
+# as it will prevent further operations on the container other than start and stop.
+pct mount your-vm-id
+
+# Move a rootfs-/mp-volume to a different storage or to a different container.
+pct move-volume your-vm-id <volume> [<storage>] [<target-vmid>] [<target-volume>] [OPTIONS]
+
+# Unmount the container?s filesystem.
+pct unmount your-vm-id
+
+# Resize a container mount point.
+pct resize your-vm-id your-vm-disk <size> [OPTIONS]
+
+# Rescan all storages and update disk sizes and unused disk images.
+pct rescan [OPTIONS]
+
+# Connect to container
+pct enter your-vm-id
+
+# Launch a console for the specified container.
+pct console your-vm-id [OPTIONS]
+
+# Launch a shell for the specified container.
+pct enter your-vm-id
+
+# Launch a command inside the specified container.
+pct exec your-vm-id [<extra-args>]
+
+# Copy a file from the container to the local system.
+pct pull your-vm-id <path> <destination> [OPTIONS]
+
+# Copy a local file to the container.
+pct push your-vm-id <file> <destination> [OPTIONS]
+```
+
+### Container Snapshot
+
+```shell
+# Snapshot a container.
+pct snapshot your-vm-id <snapname> [OPTIONS]
+
+# List all snapshots.
+pct listsnapshot your-vm-id
+
+# Rollback LXC state to specified snapshot.
+pct rollback your-vm-id <snapname> [OPTIONS]
+
+# Delete a LXC snapshot.
+pct delsnapshot your-vm-id <snapname> [OPTIONS]
+```
+
+## Web GUI
+
+```shell
+# Restart web GUI
+service pveproxy restart
+```
+
+## Resize Disk
+
+### Increase disk size
+
+Increase disk size in the GUI or with the following command
+
+```shell
+qm resize 100 virtio0 +5G
+```
+
+### Decrease disk size
+
+> Before decreasing disk sizes in Proxmox, you should take a backup!
+
+1. Convert qcow2 to raw: `qemu-img convert vm-100.qcow2 vm-100.raw`
+2. Shrink the disk `qemu-img resize -f raw vm-100.raw 10G`
+3. Convert back to qcow2 `qemu-img convert -p -O qcow2 vm-100.raw vm-100.qcow2`
+
+## Further information
+
+More examples and tutorials regarding Proxmox can be found in the link list below:
+
+- Ansible playbook that automates Linux VM updates running on Proxmox (including snapshots): [TheDatabaseMe - update_proxmox_vm](https://github.com/thedatabaseme/update_proxmox_vm)
+- Manage Proxmox VM templates with Packer: [Use Packer to build Proxmox images](https://thedatabaseme.de/2022/10/16/what-a-golden-boy-use-packer-to-build-proxmox-images/)
