@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Thu Oct 19 17:22:54 2023 as: nmap -sC -sV -oA cisco 192.168.1.254
+Host: 192.168.1.254 ()	Status: Up
+Host: 192.168.1.254 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.9p1.RL Allied Telesis (protocol 2.0)/, 80/open/tcp//http//GoAhead WebServer/, 443/open/tcp//ssl|http//GoAhead WebServer/
+# Nmap done at Thu Oct 19 17:28:11 2023 -- 1 IP address (1 host up) scanned in 316.99 seconds
