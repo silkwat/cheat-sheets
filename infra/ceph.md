@@ -13,6 +13,8 @@ Ceph is a distributed network storage and file system with distributed metadata 
 ![java-code](https://raw.githubusercontent.com/silkwat/cheat-sheets/main/infra/vm-HA-add.png)<hr>
 <b>VM HA Migrate Output</b><br>
 ![java-code](https://raw.githubusercontent.com/silkwat/cheat-sheets/main/infra/vm-migrate-output.png)<br>
+<b>VM HA Migrate Status</b><br>
+![java-code](https://raw.githubusercontent.com/silkwat/cheat-sheets/main/infra/vm-migrate-status.png)<br>
 
 ---
 
