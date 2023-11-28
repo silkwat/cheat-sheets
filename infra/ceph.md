@@ -9,7 +9,7 @@ Ceph is a distributed network storage and file system with distributed metadata 
 
 #### Sheet Views
 <b>Horizontal Layout with new button and color</b><br>
-![java-code](https://raw.githubusercontent.com/silkwat/cheat-sheets/infra/master/ct-migrate-3MIN.png)<hr>
+![java-code](https://raw.githubusercontent.com/silkwat/cheat-sheets/blob/main/infra/ct-migrate-3MIN.png)<hr>
 <b>Vertical Layout</b><br>
 ![java-code](https://raw.githubusercontent.com/SEDoug/TipCalculator/master/tipCal01.JPG)<hr>
 <b>Horizontal Layout</b><br>
