@@ -4,6 +4,9 @@ Ceph is a distributed network storage and file system with distributed metadata 
 ---
 ## Proxmox Snapshots
 <b>Create Cluster</b><br>
+
+I started by installing Proxmox 8.03 on three Dell Optiplex 3040M Thin-Clients. Then I created a cluster<br>
+
 ![java-code](https://raw.githubusercontent.com/silkwat/cheat-sheets/main/infra/ceph-01.png)<hr>
 <b>Join Cluster</b><br>
 ![java-code](https://raw.githubusercontent.com/silkwat/cheat-sheets/main/infra/ceph-01.png)<hr>
